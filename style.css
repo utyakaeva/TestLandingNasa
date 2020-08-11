@@ -1,0 +1,214 @@
+.header-nav {
+    background-image: url(fonovaya.jpg);
+    background-color: gray;
+    height: 1200px;
+    width: 1920px;
+}
+.dropdown {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+a.nav-link {
+    color:white;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    color: #111;
+    opacity: 0.6;
+    width: 130px;
+    border-radius: 20px 20px 20px 20px;
+    transition: 0.5s;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    width: 130px;
+    transition: 0.5s;
+    opacity: 0.6;
+    border-radius: 0 0 20px 20px;
+
+}
+
+.dropdown:hover  {
+    display: block;
+    background-color: black;
+    opacity: 0.6;
+    width: 130px;
+    transition: 0.5s;
+    border-radius: 20px 20px 0 0;
+}
+.calendar {
+    display: flex;
+    background-color: #2C3539;
+    width: 1920px;
+    height: 1400px;
+    justify-content: space-around;
+}
+.table td
+{
+    width: 80px;
+    height: 80px;
+    padding: 10px 40px 10px 50px;
+    border-top: none;
+    background-color: #3355a3;
+    color: white;
+    font-size: 30px;
+}
+
+.table thead th
+{
+    border-bottom: none;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+table
+{
+    position:relative;
+    padding-bottom: 300px;
+    height: 1000px;
+    padding-left: -30px;
+}
+.table th
+{
+    width: 100px;
+    height: 100px;
+    padding: 20px 50px 20px 50px;
+    border-top: #005f9e;
+    background-color: #3355a3;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.peer {
+    position: relative;
+    margin: 0 1px 0 26px;
+    background: red;
+    height: 8px;
+    width: 8px;
+    border: 3px solid red;
+
+    border-radius: 50%;
+    cursor:pointer;
+}
+.cal:hover::after .peer
+
+{
+    background-color: white;
+    height: 18px;
+    width: 18px;
+}
+
+
+.cal {
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.cal:hover::after {
+    content: attr(data-info);
+    position: absolute;
+    width: 450px;
+    padding: 15px 10px;
+    bottom: -487%;
+    left: 50%;
+    margin-left: 0px;
+    border-radius: 7px;
+    background-color: #2a478a;
+    text-align: center;
+    color: #fff;
+    cursor: default;
+    font-size: 19px;
+}
+.cal {
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.cal:hover::after {
+    content: attr(data-info);
+    position: absolute;
+    width: 450px;
+    padding: 15px 10px;
+    bottom: -487%;
+    left: 50%;
+    margin-left: 0px;
+    border-radius: 7px;
+    background-color: #2a478a;
+    text-align: center;
+    color: #fff;
+    cursor: default;
+    font-size: 19px;
+}
+h4 {
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-right: 70px;
+}
+p
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.dropdown_calendar {
+    position: relative;
+    display: inline-block;
+    margin-top: -30px;
+    font-size: 28px;
+    color: white;
+    width: 60px;
+
+    border-radius: 20px 20px 0 0;
+
+}
+.dropdown-content_calendar {
+    display: none;
+    position: absolute;
+    background-color: #2a478a;
+    width: 500px;
+    text-align: justify;
+    font-size: 0.7em;
+    border-radius: 0 20px 20px 20px;
+    color: white;
+}
+
+.dropdown_calendar:hover .dropdown-content_calendar {
+    display: block;
+}
+.dropdown_calendar:hover
+{
+    margin-top: 0px;
+}
+.dropdown_calendar:hover  {
+    display: block;
+    background-color: #2a478a;
+
+}
+a
+{
+    color: white;
+    text-align: center;
+}
+a:hover
+{
+    color: #00bfff;
+}
+.polos
+{
+    background-color: white;
+    width: 380px;
+    height: 1px;
+    margin-top: 30px;
+    opacity: 0.5
+}
+.calendar img
+{
+    margin-left: 700px;
+    margin-top: 1100px;
+    position: absolute;
+    z-index: 5;
+}
